@@ -21,7 +21,3 @@ obtenerPeliculas()
       });
 
 
-const searchButton = document.getElementById("searchButton");
-searchButton.onclick = ()=> {
-  window.alert("Hola mundo")
-}

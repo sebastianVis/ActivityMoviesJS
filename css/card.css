@@ -15,12 +15,13 @@
 }
 
 .card-movie{
-    height: 530px;
+    height: 550px;
     width: 250px;
     background-color: rgba(0,0,0,0.6);
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin: 10px;
     border-radius: 3px;
     box-shadow: 0px 1px 2px 1px black;
