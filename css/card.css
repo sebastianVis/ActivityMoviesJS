@@ -1,28 +1,33 @@
 .main{
     position: absolute;
     width:100%;
-    margin-top: 100px;
+    margin-top: 80px;
     display:flex;
     flex-direction: column;
     align-items: center;
+    padding: 0;
+
 }
 
 .card-movie{
     height: 440px;
-    width: 300px;
-    background-color: #C46DF4;
+    width: 333px;
+    background-color: #4617EB;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 10px;
+    border-radius: 3px;
 }
 
 .movie__title{
+    margin-top: 10px;
     text-align: center;
 }
 
 .movie__title .title{
-    font-size: 25px;
+    font-size: 22px;
+    color: #F08F00;
 }
 
 .movie__img{
@@ -31,6 +36,12 @@
 }
 
 .movie__info{
+    padding: 10px;
     font-size: 18px;
     text-align: justify;
+    color: white;
+}
+
+.movie-list{
+    padding: 0;
 }

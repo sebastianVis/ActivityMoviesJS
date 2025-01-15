@@ -14,7 +14,7 @@ const obtenerPeliculas = () => {
 obtenerPeliculas()
       .then(peliculas => {
         renderizarPeliculas(peliculas);
-        console.log('sirvio')
+        console.log('sirvio gracias papadios')
       })
       .catch(error => {
         console.error('Error al obtener las películas:', error);

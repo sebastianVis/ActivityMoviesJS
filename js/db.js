@@ -30,6 +30,7 @@ export const dataJson=[
         id: 4,
         titulo: 'The Godfather',
         resumen: 'Una familia mafiosa italiana lucha por mantener su poder y legado.',
+        img:'img/Elpadrino.webp',
         length: '175 minutos',
         genero: 'Crimen, Drama',
         fechaLanzamiento: '24 de marzo de 1972'
@@ -38,6 +39,7 @@ export const dataJson=[
         id: 5,
         titulo: 'Pulp Fiction',
         resumen: 'Historias entrelazadas de crimen, humor negro y redención en Los Ángeles.',
+        img: 'img/pulp_fiction.webp',
         length: '154 minutos',
         genero: 'Crimen, Drama',
         fechaLanzamiento: '14 de octubre de 1994'
@@ -46,6 +48,7 @@ export const dataJson=[
         id: 6,
         titulo: 'Forrest Gump',
         resumen: 'Un hombre con un corazón puro cambia el mundo mientras vive la historia de Estados Unidos.',
+        img: 'img/forrest_gump.jpg',
         length: '142 minutos',
         genero: 'Drama, Romance',
         fechaLanzamiento: '6 de julio de 1994'
@@ -54,6 +57,7 @@ export const dataJson=[
         id: 7,
         titulo: 'The Matrix',
         resumen: 'Un hacker descubre la verdad detrás de la realidad y lidera la lucha contra un sistema opresor.',
+        img: 'img/matrix.jpg',
         length: '136 minutos',
         genero: 'Ciencia ficción, Acción',
         fechaLanzamiento: '31 de marzo de 1999'
@@ -62,6 +66,7 @@ export const dataJson=[
         id: 8,
         titulo: 'Titanic',
         resumen: 'Un romance trágico entre dos jóvenes a bordo del famoso barco que se hunde.',
+        img: 'img/titanic.jpg',
         length: '195 minutos',
         genero: 'Romance, Drama',
         fechaLanzamiento: '19 de diciembre de 1997'
@@ -70,6 +75,7 @@ export const dataJson=[
         id: 9,
         titulo: 'The Lion King',
         resumen: 'Un joven león huye después de la muerte de su padre, pero regresa para reclamar su trono.',
+        img: 'img/lionking.jpg',
         length: '88 minutos',
         genero: 'Animación, Aventura',
         fechaLanzamiento: '15 de junio de 1994'
@@ -78,6 +84,7 @@ export const dataJson=[
         id: 10,
         titulo: 'Avengers: Endgame',
         resumen: 'Los héroes más poderosos del mundo intentan revertir las acciones de Thanos y salvar el universo.',
+        img: 'img/endgame.jpg',
         length: '181 minutos',
         genero: 'Acción, Ciencia ficción',
         fechaLanzamiento: '26 de abril de 2019'
@@ -86,6 +93,7 @@ export const dataJson=[
         id: 11,
         titulo: 'Parasite',
         resumen: 'Una familia pobre se infiltra en la vida de una rica con consecuencias inesperadas.',
+        img: 'img/parasite.jpg',
         length: '132 minutos',
         genero: 'Drama, Thriller',
         fechaLanzamiento: '30 de mayo de 2019'
@@ -94,6 +102,7 @@ export const dataJson=[
         id: 12,
         titulo: 'Star Wars: A New Hope',
         resumen: 'Un joven granjero se une a una rebelión para salvar a la galaxia del Imperio.',
+        img: 'img/newhope.jpg',
         length: '121 minutos',
         genero: 'Ciencia ficción, Aventura',
         fechaLanzamiento: '25 de mayo de 1977'
@@ -102,6 +111,7 @@ export const dataJson=[
         id: 13,
         titulo: 'Gladiator',
         resumen: 'Un general romano caído en desgracia busca venganza como gladiador.',
+        img: 'img/gladiator.jpg',
         length: '155 minutos',
         genero: 'Acción, Drama',
         fechaLanzamiento: '5 de mayo de 2000'
@@ -110,6 +120,7 @@ export const dataJson=[
         id: 14,
         titulo: 'Interstellar',
         resumen: 'Exploradores viajan a través de un agujero de gusano para salvar a la humanidad.',
+        img: 'img/interestellar.jpg',
         length: '169 minutos',
         genero: 'Ciencia ficción, Aventura',
         fechaLanzamiento: '7 de noviembre de 2014'
@@ -118,6 +129,7 @@ export const dataJson=[
         id: 15,
         titulo: 'Coco',
         resumen: 'Un joven músico viaja al mundo de los muertos para descubrir la verdad sobre su familia.',
+        img: 'img/coco.jpg',
         length: '105 minutos',
         genero: 'Animación, Familia',
         fechaLanzamiento: '22 de noviembre de 2017'
@@ -126,6 +138,7 @@ export const dataJson=[
         id: 16,
         titulo: 'Joker',
         resumen: 'Un hombre con problemas mentales se convierte en el icónico villano del universo de Batman.',
+        img: 'img/joker.jpg',
         length: '122 minutos',
         genero: 'Drama, Thriller',
         fechaLanzamiento: '4 de octubre de 2019'
@@ -134,6 +147,7 @@ export const dataJson=[
         id: 17,
         titulo: 'La La Land',
         resumen: 'Un músico y una actriz se enamoran mientras persiguen sus sueños en Los Ángeles.',
+        img: 'img/lalaland.jpg',
         length: '128 minutos',
         genero: 'Romance, Musical',
         fechaLanzamiento: '9 de diciembre de 2016'
@@ -142,6 +156,7 @@ export const dataJson=[
         id: 18,
         titulo: 'Frozen',
         resumen: 'Dos hermanas reales enfrentan el poder del hielo y la importancia del amor familiar.',
+        img: 'img/frozen.jpg',
         length: '102 minutos',
         genero: 'Animación, Fantasía',
         fechaLanzamiento: '27 de noviembre de 2013'
@@ -150,6 +165,7 @@ export const dataJson=[
         id: 19,
         titulo: 'The Avengers',
         resumen: 'Los héroes más poderosos se unen para detener a un dios alienígena y salvar la Tierra.',
+        img: 'img/avengers.webp',
         length: '143 minutos',
         genero: 'Acción, Ciencia ficción',
         fechaLanzamiento: '4 de mayo de 2012'
@@ -158,6 +174,7 @@ export const dataJson=[
         id: 20,
         titulo: 'Black Panther',
         resumen: 'El rey de Wakanda debe defender su reino y su legado contra enemigos internos y externos.',
+        img: 'img/blackpanther.webp',
         length: '134 minutos',
         genero: 'Acción, Aventura',
         fechaLanzamiento: '16 de febrero de 2018'
