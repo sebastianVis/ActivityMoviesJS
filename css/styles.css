@@ -11,6 +11,7 @@ body{
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    background-color: #363636;
 
 }
 
@@ -18,15 +19,16 @@ body{
     .movie-list{
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,33%);
     }
 }
 
 @media (min-width: 1280px) { /*Ajuste para pc*/
     .movie-list{
-        width: 80%;
+        width: 100%;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(5, 20%);
+        position: relative;
     }
 }
 
