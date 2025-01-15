@@ -1,7 +1,8 @@
-const dataJson=[
+export const dataJson=[
     {
         id : 1,
         titulo: 'The Shawshank Redemption',
+        img: 'img/shawshank_redemption.jpg',
         resumen: 'Un hombre inocente condenado a cadena perpetua forma una amistad que cambia su vida dentro de prisión.',
         length: '142 minutos',
         genero: 'Drama',
@@ -10,6 +11,7 @@ const dataJson=[
     {
         id: 2,
         titulo: 'Inception',
+        img: 'img/inception.jpg',
         resumen: 'Un ladrón roba secretos de los sueños, pero una última misión lo lleva a cuestionar la realidad.',
         length: '148 minutos',
         genero: 'Ciencia ficción, Acción',
@@ -18,6 +20,7 @@ const dataJson=[
     {
         id: 3,
         titulo: 'The Dark Knight',
+        img: 'img/the_dark_knight.jpg',
         resumen: 'Batman enfrenta a su mayor enemigo, el Joker, mientras intenta proteger Gotham.',
         length: '152 minutos',
         genero: 'Acción, Crimen',
