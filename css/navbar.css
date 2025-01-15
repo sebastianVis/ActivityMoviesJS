@@ -1,0 +1,21 @@
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: #AC25F5;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-searchbar{
+    border: none;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+}
+.navbar-search{
+    border: none;
+    height: 50px;
+    width: 50px;
+}
