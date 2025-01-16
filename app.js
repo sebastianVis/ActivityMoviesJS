@@ -5,7 +5,7 @@ const movieList = document.getElementById('movieList');
 const obtenerPeliculas = () => {
     return new Promise((resolve, reject) => {
       setTimeout(() => { dataJson; resolve(dataJson);
-      }, 1000);
+      }, 0);
     });
   };
 
@@ -21,16 +21,16 @@ obtenerPeliculas()
 
 const botonBuscar = document.getElementById('searchForMovie');
 botonBuscar.addEventListener('click' , () =>{
-  search()})
+  search();})
 
 function search(){
   const filtrarPelicula = document.getElementById('search-movie').value.toLowerCase();
   let resultado = document.getElementById('movieList');
   resultado.innerHTML='';
-  console.log(filtrarPelicula)
   if (filtrarPelicula === ''){
     obtenerPeliculas();
   }
   const resultadosBusqueda = dataJson.filter(peliculasFiltradas => peliculasFiltradas.titulo.toLowerCase().includes(filtrarPelicula))
   verPeliculas(resultadosBusqueda);
 }
+
