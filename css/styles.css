@@ -15,21 +15,4 @@ body{
 
 }
 
-@media screen and ((min-width: 710px) and (max-width: 1280px)) { /*Ajuste para tablet*/
-    .movie-list{
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(3,33%);
-    }
-}
-
-@media (min-width: 1280px) { /*Ajuste para pc*/
-    .movie-list{
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(5, 20%);
-        position: relative;
-    }
-}
-
 
