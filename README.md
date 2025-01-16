@@ -2,6 +2,8 @@
 
 Este es un proyecto de desarrollo web que consiste en la creación de una página de cine interactiva utilizando tecnologías como HTML, CSS, JavaScript y JSON. La página está diseñada para mostrar una lista de películas, sus detalles y permitir la visualización de contenido dinámico.
 
+Explora la pagina en el siguiente link: https://cinemasebastian.netlify.app/
+
 ## Tecnologías utilizadas
 
 - **HTML**: Para la estructura básica de la página.

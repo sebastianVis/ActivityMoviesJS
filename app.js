@@ -5,7 +5,7 @@ const movieList = document.getElementById('movieList');
 const obtenerPeliculas = () => {
     return new Promise((resolve, reject) => {
       setTimeout(() => { dataJson; resolve(dataJson);
-      }, 0);
+      }, 1000);
     });
   };
 
